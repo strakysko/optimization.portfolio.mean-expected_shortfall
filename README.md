@@ -17,9 +17,9 @@ The case study is positioned as a **feasibility demonstration** (i.e., the QUBO 
 
 ### Portfolio representation used to fit current hardware limits
 To keep qubit usage tractable, the case study uses an **inclusion/exclusion** portfolio:
-- Decision vector: $\xi \in \{0,1\}^d$ (select or exclude each asset). 
-- Budget: \(B = 100\).
-- Initial “prices” \(\pi_i\) are set to the **S&P 500 index weights** (a simplifying assumption made for the case study).
+- Decision vector: $\xi \in {0,1}^d$ (select or exclude each asset). 
+- Budget: $B = 100$.
+- Initial “prices” $\pi_i$ are set to the **S&P 500 index weights** (a simplifying assumption made for the case study).
 
 ---
 
@@ -36,7 +36,7 @@ To keep qubit usage tractable, the case study uses an **inclusion/exclusion** po
 
 The case study follows Basel-style parameter choices:
 - ES computed from a **12-month** period. 
-- Confidence level: \(\alpha = 0.975\). 
+- Confidence level: $\alpha = 0.975$. 
 - Horizon: **10 trading days**.
 - Returns: uses **overlapping 10-day returns**, with **T = 255** overlapping observations per constituent.
 
