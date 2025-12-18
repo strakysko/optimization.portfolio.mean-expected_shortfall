@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.log
+
+# Virtual env
+venv/
+.venv/
+
+# JetBrains / PyCharm
+.idea/
