@@ -17,7 +17,7 @@ The case study is positioned as a **feasibility demonstration** (i.e., the QUBO 
 
 ### Portfolio representation used to fit current hardware limits
 To keep qubit usage tractable, the case study uses an **inclusion/exclusion** portfolio:
-- Decision vector: $\xi \in {0,1}^d$ (select or exclude each asset). 
+- Decision vector: $\xi \in \{0,1\}^d$ (select or exclude each asset). 
 - Budget: $B = 100$.
 - Initial “prices” $\pi_i$ are set to the **S&P 500 index weights** (a simplifying assumption made for the case study).
 
