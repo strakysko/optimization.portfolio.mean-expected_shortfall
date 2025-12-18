@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Optimization portfolio: Mean–Expected Shortfall (thesis case study)"
+authors:
+  - family-names: "Straka"
+    given-names: "David"
+    affiliation: "UvA, TNO"
+version: "1.0.0"
+date-released: "2025-12-18"
+repository-code: "https://github.com/strakysko/optimization.portfolio.mean-expected_shortfall"
+license: "MIT"
